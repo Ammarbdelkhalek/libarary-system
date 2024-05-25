@@ -328,7 +328,12 @@ include 'db_connect.php';
         </div>
         <div class="form-group col-6 m-0 p-0">
           <label for="inputField" class="sr-only">Input</label>
-          <input type="text" class="form-control p-4" id="inputField" placeholder="بحث" />
+          <a href ="search.php">
+            <div>
+            <input type="text" class="form-control p-4" id="inputField" placeholder="بحث" /> 
+            </div>
+          </a>
+        
          </div>
         <!-- <div class="form-group col-2 m-0 p-0">
           <label for="selectField" class="sr-only">Select</label>

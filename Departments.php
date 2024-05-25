@@ -117,7 +117,7 @@ include 'db_connect.php';
           <label for="inputField" class="sr-only">Input</label>
           <input type="text" class="form-control p-4" id="inputField" placeholder="بحث" />
         </div>
-        <div class="form-group col-2 m-0 p-0">
+        <!-- <div class="form-group col-2 m-0 p-0">
           <label for="selectField" class="sr-only">Select</label>
           <select class="form-control p-4" id="selectField">
             <option selected>الكلمات الدلالية</option>
@@ -132,7 +132,7 @@ include 'db_connect.php';
             <option value="1">الكتب الألكترونية</option>
             <option value="2">المجالات الألكترونية</option>
           </select>
-        </div>
+        </div> -->
       </form>
       <div class="row py-2">
         <!-- Card for College Departments -->

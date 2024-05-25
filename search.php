@@ -116,7 +116,7 @@ $conn->close();
     </style>
 </head>
 <body>
-    <header>
+    <header id = newsearch_engine>
         <h1>محرك البحث</h1>
     </header>
     <div class="container">

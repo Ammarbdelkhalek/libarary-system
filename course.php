@@ -165,7 +165,7 @@ include 'db_connect.php';
 
             // SQL query to fetch data from the course table
             $sql = "SELECT course.title AS course_title, Instructors.Name AS instructor_name, course.description AS course_description , 
-            course.LectureNotesFile1 As LectureNotesFile1, course.LectureNotesFile2 As LectureNotesFile2,course.LectureNotesFile3 As LectureNotesFile3,
+            course.LectureNotesFile1 As LectureNotesFile1, course.LectureNotesFile2 As LectureNotesFile2, 
             course.BookReferenceFile As BookReferenceFile
             FROM course
             JOIN Instructors ON course.instructor_id = Instructors.InstructorID
@@ -199,10 +199,7 @@ include 'db_connect.php';
                                             <a href="<?php echo $row["LectureNotesFile2"]; ?>" style="text-decoration: none; color: #007bff;">تحميل محاضرة ٢</a>
                                         </p>
                                         <p style="margin: 0; padding: 5px 0;">
-                                            <a href="<?php echo $row["LectureNotesFile3"]; ?>" style="text-decoration: none; color: #007bff;">تحميل محاضرة ٣</a>
-                                        </p>
-                                        <p style="margin: 0; padding: 5px 0;">
-                                            <a href="<?php echo $row["LectureNotesFile1"]; ?>" style="text-decoration: none; color: #007bff;">تحميل ملف الكتاب والمرجع</a>
+                                            <a href="<?php echo $row["BookReferenceFile"]; ?>" style="text-decoration: none; color: #007bff;">تحميل ملف الكتاب والمرجع</a>
                                         </p>
                                     </div>
                                 </div>
